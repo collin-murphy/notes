@@ -1,0 +1,4 @@
+"git add -p {file}"
+this command is for adding parts of a file to a commit, it goes over each section that is changed and you pick one by one
+
+
