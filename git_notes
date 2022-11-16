@@ -6,3 +6,36 @@ Bash file -
 
 "git diff --cached"
 git diff shows you the difference between your file and the one in the git repo. --cached is necessary if you already added the file.
+
+"git branch {name}"
+make a branch
+
+"git checkout {name}"
+move to branch
+
+"git push --set-upstream {name}"
+push to specific branch
+
+"git merge --abort"
+abort a merge and fix any issues
+
+Structure:
+Have multiple branches. 
+The main branch shouldn't be directly committed to, rather merge or rebased.
+The other branches can be a main development branch/staging branch
+there can be short lived branches used for specific feature building.
+
+Github flow- 
+only 2 branches
+very lean
+
+GitFlow-
+there are a main and develop branches
+short lived feature, release, and hotfix branches
+
+You can take inspiration and make your own strategy.
+
+merge vs rebase
+Merge: a 'merge commit' to combine both changes.
+rebase: applies all new changes from branch B, and rebases everything and rewrites commit history
+
