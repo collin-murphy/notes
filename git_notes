@@ -1,4 +1,8 @@
 "git add -p {file}"
 this command is for adding parts of a file to a commit, it goes over each section that is changed and you pick one by one
 
+"git config --global core.editor vim"
+Bash file - 
 
+"git diff --cached"
+git diff shows you the difference between your file and the one in the git repo. --cached is necessary if you already added the file.
